@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #131519;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #1e2530;
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+}
+p {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+h2 {
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+.num input[type="radio"] {
+  display: none;
+}
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+  transition: background-color 0.7s ease;
+}
+#submitBtn {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+#iconStar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #273139;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#con {
+  padding-left: 2px;
+}
+#part {
+  display: flex;
+  gap: 13px;
+  padding-top: 1rem;
+}
+#submit {
+  margin-top: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+#submitBtn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+#image {
+  margin-left: 60px;
+}
+#thank {
+  text-align: center;
+  margin-top: 30px;
+}
+#thank2 {
+  text-align: center;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #293137;
+  border-radius: 20px;
+  padding: 3px;
+  margin-top: 20px;
+  width: 180px;
+  margin-left: 20%;
+}
+#p1 {
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+}
+#displayOnSubmit {
+  display: none;
+}
